@@ -14,7 +14,9 @@ let s : string
 let b : bool
 let f : function(number):number
 let c : actor
-let u : actor_function(string,string):string
+
+let w : wordline : string
+let wf : wordline_function(number):number
 
 class test_class {}
 
@@ -23,3 +25,4 @@ let test_object : test_class
 interface test_interface {}
 
 let test_object2 : test_interface
+
